@@ -1,0 +1,1582 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO -->
+  <title>WebSlides: Making HTML presentations easy</title>
+  <meta name="description" content="WebSlides is the easiest way to make HTML presentations, portfolios, and landings. Just essential features.">
+
+  <!-- URL CANONICAL -->
+  <!-- <link rel="canonical" href="http://your-url.com/"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext"
+    rel="stylesheet">
+
+  <!-- CSS WebSlides -->
+  <link rel="stylesheet" type='text/css' media='all' href="static/css/webslides.css">
+
+  <!-- Optional - CSS SVG Icons (Font Awesome) -->
+  <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
+
+  <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+  <!-- FACEBOOK -->
+  <meta property="og:url" content="http://your-url.com/">
+  <!-- YOUR URL -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="WebSlides — Making HTML Presentations Easy">
+  <!-- EDIT -->
+  <meta property="og:description" content="WebSlides is about telling stories beautifully. Just the essential features. Good karma.">
+  <!-- EDIT -->
+  <meta property="og:updated_time" content="2017-01-04T17:20:50">
+  <!-- EDIT -->
+  <meta property="og:image" content="static/images/share-webslides.jpg">
+  <!-- EDIT -->
+
+  <!-- TWITTER -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@webslides">
+  <!-- EDIT -->
+  <meta name="twitter:creator" content="@jlantunez">
+  <!-- EDIT -->
+  <meta name="twitter:title" content="WebSlides — Making HTML Presentations Easy">
+  <!-- EDIT -->
+  <meta name="twitter:description" content="WebSlides is about good karma. Just essential features. 120+ free slides ready to use.">
+  <!-- EDIT -->
+  <meta name="twitter:image" content="static/images/share-webslides.jpg">
+  <!-- EDIT -->
+
+  <!-- FAVICONS -->
+  <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
+  <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32.png">
+  <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/favicon-76.png">
+  <link rel="apple-touch-icon icon" sizes="120x120" href="static/images/favicons/favicon-120.png">
+  <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/favicon-152.png">
+  <link rel="apple-touch-icon icon" sizes="180x180" href="static/images/favicons/favicon-180.png">
+  <link rel="apple-touch-icon icon" sizes="192x192" href="static/images/favicons/favicon-192.png">
+
+  <!-- Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#333333">
+
+</head>
+
+<body>
+  <header role="banner">
+    <nav role="navigation">
+      <p class="logo">
+        <a href="week01.html" title="WebSlides">WebSlides</a>
+      </p>
+      <ul>
+        <li class="github">
+          <a rel="external" href="https://github.com/avcoder/comp2105-week01" title="Github">
+            <svg class="fa-github">
+              <use xlink:href="#fa-github"></use>
+            </svg>
+            <em>WebSlides</em>
+          </a>
+        </li>
+        <li class="twitter">
+          <a rel="external" href="https://twitter.com/webslides" title="Twitter">
+            <svg class="fa-twitter">
+              <use xlink:href="#fa-twitter"></use>
+            </svg>
+            <em>@WebSlides</em>
+          </a>
+        </li>
+        <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <article id="webslides" class="horizontal">
+      <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+
+      <section>
+        <!-- Credit: image from unsplash.com -->
+        <span class="background" style="background-image:url('./static/images/splash.jpg'); filter: opacity(.3);"></span>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap aligncenter">
+          <h1>
+            <strong>Motion Graphics for Interaction</strong>
+          </h1>
+          <p class="text-intro">Week 1 - COMP 2105
+            <br> albert.villaruz@georgiancollege.ca
+          </p>
+          <p>
+            <a href="https://github.com/avcoder/comp2105-week01" class="button zoomIn" title="Download WebSlides for free">
+              <svg class="fa-github">
+                <use xlink:href="#fa-github"></use>
+              </svg>
+              Class Notes
+            </a>
+          </p>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-50 aligncenter">
+          <h2>
+            <strong>To Do Today:</strong>
+          </h2>
+          <br />
+          <div class="bg-white shadow">
+            <ul class="flexblock reasons">
+              <li>
+                <h2>12 Principles of Animation</h2>
+                <p>Describe each of the animation principles that apply specifically to motion graphics.</p>
+              </li>
+              <li>
+                <h2>What properties can be animated?</h2>
+                <p>List each of the elements of motion graphics that can be animated in an interactive environment.</p>
+              </li>
+              <li>
+                <h2>Give a UI example</h2>
+                <p>Illustrate a simple example of a possible use of each of the above for the purposes of creating an interactive
+                  user-interface.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .bg-white shadow -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap aligncenter">
+          <p class="text-subtitle">Animation in Web Design</p>
+          <h2>Why Animate?</h2>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <blockquote class="text-quote">
+            <p>Have you ever had a day at work where you were constantly put towards a new task as you were ramping up on the
+              current one? It feels jarring at best, and completely frustrating and time-wasting at worst. In recent years,
+              employers at big companies have begun to consider the cost of context-shifting—the time spent re-adjusting
+              your brain to a different task adds up, causes frustration in employees, and thus: loses money. It follows
+              that User Experience on a website works the same way.
+            </p>
+            <p></p>
+            <p>
+              <cite>
+                <img class="avatar-56" src="https://pbs.twimg.com/profile_images/856249108885110784/97cssCek_bigger.jpg" alt="Avatar">Sarah Drasner.
+                <br/>
+                <a href="https://css-tricks.com/the-importance-of-context-shifting-in-ux-patterns/">The Importance of context-shifting in UX patterns</a>
+              </cite>
+            </p>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <blockquote class="text-quote">
+            <p>Does the animation provide any useful information about the interaction?</p>
+            <p>Does it feel like it’s responding to you as the user?</p>
+            <p>What sort of emotional response does it trigger for you?</p>
+            <p>Animation that’s worth adding should make things better on some level—think progressive enrichment, or making
+              the interaction richer for browsers that support it. If it’s not adding something—either in terms of use or
+              style—then leave it out.
+            </p>
+            <p>
+              <cite>
+                <img class="avatar-56" src="https://pbs.twimg.com/profile_images/669650293747900416/GApkPcFY_bigger.jpg" alt="Avatar">Val Head.
+                <br/>
+                <a href="http://alistapart.com/article/ui-animation-and-ux-a-not-so-secret-friendship">UI Animation and UX: A Not-So-Secret Friendship</a>
+              </cite>
+            </p>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <blockquote class="text-quote">
+            <p>...Animation allows the user to continue thinking about the task domain, with no need to shift contexts to the
+              interface domain. By eliminating sudden visual changes, animation lessens the chance that the user is surprised.
+            </p>
+            <p>
+              <cite>
+                <a href="https://smartech.gatech.edu/bitstream/handle/1853/3627/93-17.pdf?sequence=1&isAllowed=y">Scott E. Hudson and John T. Stasko (1993)</a>
+              </cite>
+            </p>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-50 aligncenter">
+          <h2>
+            <strong>To Do Today:</strong>
+          </h2>
+          <br />
+          <div class="bg-white shadow">
+            <ul class="flexblock reasons">
+              <li style="background: #aafaa4">
+                <h2>12 Principles of Animation</h2>
+                <p>Describe each of the animation principles that apply specifically to motion graphics.</p>
+              </li>
+              <li>
+                <h2>What properties can be animated?</h2>
+                <p>List each of the elements of motion graphics that can be animated in an interactive environment.</p>
+              </li>
+              <li>
+                <h2>Give a UI example</h2>
+                <p>Illustrate a simple example of a possible use of each of the above for the purposes of creating an interactive
+                  user-interface.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .bg-white shadow -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <blockquote class="text-quote">
+            <p>The 12 classic principles break down how to communicate with animation and how to control what it conveys to
+              viewers...Without a shared vocabulary around animation, this can be difficult and time-consuming.
+            </p>
+            <p></p>
+            <p>
+              <cite>
+                <img class="avatar-56" src="https://pbs.twimg.com/profile_images/669650293747900416/GApkPcFY_bigger.jpg" alt="Avatar">Val Head.
+                <br/>
+                <a href="https://www.fastcodesign.com/3055811/what-disneys-classic-animation-principles-can-teach-us-about-great-web-design">What Disney's classic animation principles can teach us about great web design</a>
+              </cite>
+            </p>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section>
+        <div class="wrap">
+          <div class="content-left">
+            <h3>
+              <a href="https://webslides.tv/demos/media#slide=2">12 Principles of Animation</a>
+            </h3>
+            <p>Watch this brilliant vignette illustrating the 12 basic principles of animation as developed by the folks at
+              Walt Disney Studios, including Frank Thomas and Ollie Johnston, during the 1930s. Each of these principles,
+              to some degree are employed in motion graphic user interface components of modern web applications. Let this
+              short video begin the creative inspiration. Directed and animated by Vincenzo Lodigiani, taken from "The Illusion
+              of Life" by Frank Thomas and Ollie Johnston.</p>
+
+
+          </div>
+          <!-- end .content-left -->
+          <div class="content-left">
+            <!-- <div class="embed"> = Responsive -->
+            <div class="embed">
+              <div data-youtube data-youtube-id="jn5OB12u8Pw" data-autoplay data-no-controls></div>
+            </div>
+            <!-- end .embed -->
+          </div>
+          <!-- end .content-left -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <!-- Credit for next set of slides: https://ohmy.disney.com/movies/2016/07/20/twelve-principles-animation-disney/ -->
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/squashstretch.gif" alt="squash and stretch">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                1. ___________________?
+              </h2>
+              <br/>
+              <p class="text-intro">Illusion of weight / volume as character moves</p>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/squash1.gif" alt="squash and stretch">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                Squash &amp; Stretch
+              </h2>
+              <p class="text-intro">Illusion of weight / volume as character moves</p>
+              <p>Also useful in animating dialogue and doing facial expressions, from a bouncing ball to the body weight of
+                a person walking. This is the most important element you will be required to master and will be used often.</p>
+              <figure>
+                <img class="aligncenter" src="./static/images/squashstretch.gif" alt="squash and stretch">
+              </figure>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/anticipation.gif" alt="anticipation">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                2. ___________________?
+              </h2>
+              <br/>
+              <p class="text-intro">Prepares a major action a character is about to perform</p>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/anticipation1.gif" alt="anticipation">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                Anticipation
+              </h2>
+              <p class="text-intro">Prepares a major action a character is about to perform</p>
+              <p>For example, starting to run, jump or change expression. A dancer does not just leap off the floor. A backwards
+                motion occurs before the forward action is executed. The backward motion is the anticipation. Similarly,
+                a pitcher's wind-up or a golfers' back swing.</p>
+              <figure>
+                <img class="aligncenter" src="./static/images/anticipation.gif" alt="anticipation">
+              </figure>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/staging.gif" alt="staging">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                3. ___________________?
+              </h2>
+              <br/>
+              <p class="text-intro">The presentation of an idea so that it is clear.</p>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/staging1.jpg" alt="staging" style="width: 600px;">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                Staging
+              </h2>
+              <p class="text-intro">The presentation of an idea so that it is clear.</p>
+              <p>A pose or action should clearly communicate to the audience the attitude, mood, reaction or idea of the character.
+                In addition, the effective use of long, medium, or close up shots, as well as camera angles also helps in
+                telling the story. Staging directs the audience's attention to the story or idea being told. Background and
+                animation should work together as a pictorial unit in a scene.</p>
+              <figure>
+                <img class="aligncenter" src="./static/images/staging.gif" alt="staging">
+              </figure>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/staging2.gif" alt="staging" style="width: 600px;">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                Staging
+              </h2>
+              <p class="text-intro">The presentation of an idea so that it is clear.</p>
+              <p>A pose or action should clearly communicate to the audience the attitude, mood, reaction or idea of the character.
+                In addition, the effective use of long, medium, or close up shots, as well as camera angles also helps in
+                telling the story. Staging directs the audience's attention to the story or idea being told. Background and
+                animation should work together as a pictorial unit in a scene.</p>
+              <figure>
+                <img class="aligncenter" src="./static/images/staging.gif" alt="staging">
+              </figure>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/straightpose.gif" alt="straight ahead and pose to pose">
+              <p style="width: 240px; height: 20px; background-color: #333; position: relative; top: -70px; left: 300px;"></p>
+            </figure>
+            <div class="flex-content">
+              <h2>
+                4. ___________________?
+              </h2>
+              <br/>
+              <p class="text-intro">Starts at the first drawing and works drawing to drawing to the end of the scene / Charted with key drawings
+                at intervals throughout the scene.</p>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+
+            <figure>
+              <img class="aligncenter" src="./static/images/straightpose1.gif" alt="straight ahead">
+            </figure>
+            <br/>
+            <figure>
+              <img class="aligncenter" src="./static/images/straightpose2.gif" alt="pose to pose">
+            </figure>
+
+            <div class="flex-content">
+              <h2>
+                Straight Ahead &amp;
+                <br/> Pose to Pose
+              </h2>
+              <p class="text-intro">Starts at the first drawing and works drawing to drawing to the end of the scene / Charted with key drawings
+                at intervals throughout the scene.</p>
+              <p>Straight ahead animation starts at the first drawing and works drawing to drawing to the end of a scene. You
+                can lose size, volume, and proportions with this method, but it does have spontaneity and freshness. Fast,
+                wild action scenes are done this way. </p>
+              <p>Pose to Pose is more planned out and charted with key drawings done at intervals throughout the scene. Size,
+                volumes, and proportions are controlled better this way, as is the action.
+              </p>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/followthru.gif" alt="follow through and overlapping">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                5. ___________________?
+              </h2>
+              <br/>
+              <p class="text-intro">When the main body of a character stops, all other parts continue to catch up to the main mass. Nothing stops
+                all at once.</p>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+
+            <figure>
+              <img class="aligncenter" src="./static/images/followthru1.gif" alt="follow through and overlapping">
+            </figure>
+            <figure>
+              <img class="aligncenter" src="./static/images/followthru2.gif" alt="follow through and overlapping">
+            </figure>
+
+            <div class="flex-content">
+              <h2>
+                Follow through and overlapping
+              </h2>
+              <p class="text-intro">When the main body of a character stops, all other parts continue to catch up to the main mass. Nothing stops
+                all at once.</p>
+              <p>For example: arms, long hair, clothing, coat tails or a dress, floppy ears or a long tail (these follow the
+                path of action). This is follow through. Overlapping action is when the character changes direction while
+                his clothes or hair continues forward. For instance, when Goofy starts to run, but his head, ears, upper
+                body, and clothes do not keep up with his legs.</p>
+              <figure>
+                <img class="aligncenter" src="./static/images/followthru.gif" alt="follow through and overlapping">
+              </figure>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/slowinout.gif" alt="ease in and ease out">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                6. ___________________?
+              </h2>
+              <br/>
+              <p class="text-intro">As the action starts, we have more drawings near the starting pose, one or two in the middle, and more drawings
+                near the next pose</p>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/slow1.gif" alt="ease in and ease out">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                Ease in and Ease out
+              </h2>
+              <p class="text-intro">As the action starts, we have more drawings near the starting pose, one or two in the middle, and more drawings
+                near the next pose</p>
+              <p>Slow-ins and slow-outs soften the action, making it more life-like.</p>
+              <figure>
+                <img class="aligncenter" src="./static/images/slowinout.gif" alt="slow in and slow out">
+              </figure>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/arcs.gif" alt="arcs">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                7. ___________________?
+              </h2>
+              <br/>
+              <p class="text-intro">Actions follow a slightly circular path. This gives animation a more natural flow</p>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/arc1.gif" alt="arcs">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                Arcs
+              </h2>
+              <p class="text-intro">Actions follow a slightly circular path. This gives animation a more natural flow</p>
+              <p>This is especially true of the human figure and the action of animals. Arcs give animation a more natural action
+                and better flow. Think of natural movements in the terms of a pendulum swinging. All arm movement, head turns
+                and even eye movements are executed on an arcs.</p>
+              <figure>
+                <img class="aligncenter" src="./static/images/arcs.gif" alt="arcs">
+              </figure>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/secondaryaction.gif" alt="secondary action">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                8. ___________________?
+              </h2>
+              <br/>
+              <p class="text-intro">An additional action used as a supplement of the main action in order to reinforce it and add more dimension</p>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/secondary1.gif" alt="secondary action" style="width: 600px;">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                Secondary Action
+              </h2>
+              <p class="text-intro">An additional action used as a supplement of the main action in order to reinforce it and add more dimension</p>
+              <p>For example: A character is angrily walking toward another character. The walk is forceful, aggressive, and
+                forward leaning. The leg action is just short of a stomping walk. The secondary action is a few strong gestures
+                of the arms working with the walk. Think of the walk as the primary action and arm swings, head bounce and
+                all other actions of the body as secondary or supporting action.</p>
+              <figure>
+                <img class="aligncenter" src="./static/images/secondaryaction.gif" alt="secondary action">
+              </figure>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/timing.gif" alt="timing">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                9. ___________________?
+              </h2>
+              <br/>
+              <p class="text-intro">More drawings between poses slow and smooth the action. Fewer drawings make the action faster and crisper</p>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/timing1.gif" alt="timing" style="width: 700px;">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                Timing
+              </h2>
+              <p class="text-intro">More drawings between poses slow and smooth the action. Fewer drawings make the action faster and crisper</p>
+              <p>A variety of slow and fast timing within a scene adds texture and interest to the movement. Also, there is
+                timing in the acting of a character to establish mood, emotion, and reaction to another character or situation.
+                Studying movement of performers on stage and in frame by frame film examination will aid you in understanding
+                timing for animation.
+              </p>
+              <figure>
+                <img class="aligncenter" src="./static/images/timing.gif" alt="timing">
+              </figure>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/exaggeration.gif" alt="exaggeration">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                10. _________________?
+              </h2>
+              <br/>
+              <p class="text-intro">Remaining true to reality–just presenting it in a more extreme form</p>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/exaggeration1.gif" alt="exaggeration">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                Exaggeration
+              </h2>
+              <p class="text-intro">Remaining true to reality–just presenting it in a more extreme form</p>
+              <p>Exaggeration is not extreme distortion of a drawing or extremely broad, violent action all the time. It's like
+                a caricature of facial features, expressions, poses, attitudes and actions. Exaggeration in a walk or an
+                eye movement or even a head turn will give your film more appeal. Use good taste and common sense to keep
+                from becoming too theatrical and excessively animated.</p>
+              <figure>
+                <img class="aligncenter" src="./static/images/exaggeration.gif" alt="exaggeration">
+              </figure>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/soliddrawings.gif" alt="solid drawings">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                11. _________________?
+              </h2>
+              <br/>
+              <p class="text-intro">Taking into account forms in three-dimensional space giving them volume and weight</p>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/solid1.gif" alt="solid drawings">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                Solid Drawings
+              </h2>
+              <p class="text-intro">Taking into account forms in three-dimensional space giving them volume and weight</p>
+              <p>The basic principles of drawing form, weight, volume solidity and the illusion of three dimension apply to
+                animation as it does to academic drawing. Three dimensional is movement in space. The fourth dimension is
+                movement in time</p>
+              <figure>
+                <img class="aligncenter" src="./static/images/soliddrawings.gif" alt="solid drawings">
+              </figure>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/appeal.gif" alt="appeal">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                12. _________________?
+              </h2>
+              <br/>
+              <p class="text-intro">A quality of charm–able to please the viewer's eyes. It is the charisma of the action.</p>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <div class="wrap">
+          <div class="card-50">
+            <figure>
+              <img class="aligncenter" src="./static/images/appeal1.gif" alt="appeal">
+            </figure>
+            <div class="flex-content">
+              <h2>
+                Appeal
+              </h2>
+              <p class="text-intro">A quality of charm–able to please the viewer's eyes. It is the charisma of the action.</p>
+              <p>A live performer has charisma. An animated character has appeal. Appealing animation does not mean just being
+                cute and cuddly. All characters have to have appeal whether they are heroic, villainous, comic or cute. Appeal,
+                includes an easy to read design, clear drawing, and personality development that will capture and involve
+                the audience's interest. It 'appeals' to the mind as well as to the eye</p>
+              <figure>
+                <img class="aligncenter" src="./static/images/appeal.gif" alt="appeal">
+              </figure>
+            </div>
+            <!-- end .flex-content Credit: http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html -->
+          </div>
+          <!-- end .card-50 Credit: http://the12principles.tumblr.com/ -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <blockquote class="text-quote">
+            <p>Not all of the 12 principles apply equally to work on the web or to modern tools. Some matter more than others
+              for animating interfaces. A solid understanding of Timing, Follow-through, Appeal, Anticipation, and Squash
+              and Stretch will be useful in web design, for example. While concepts like Staging and Solid Drawing, however,
+              are mostly irrelevant.
+            </p>
+            <p></p>
+            <p>
+              <cite>
+                <img class="avatar-56" src="https://pbs.twimg.com/profile_images/669650293747900416/GApkPcFY_bigger.jpg" alt="Avatar">Val Head.
+                <br/>
+                <a href="https://www.fastcodesign.com/3055811/what-disneys-classic-animation-principles-can-teach-us-about-great-web-design">What Disney's classic animation principles can teach us about great web design</a>
+              </cite>
+            </p>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+
+
+
+
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <div class="grid vertical-align">
+
+            <div class="column">
+              <p data-height="500" data-theme-id="dark" data-slug-hash="wpLxWL" data-default-tab="result" data-user="avcoder" data-embed-version="2"
+                data-pen-title="#2 Guess the  Animation Principles" data-preview="true" class="codepen">See the Pen
+                <a href="https://codepen.io/avcoder/pen/wpLxWL/">Guess the Animation Principle</a> by A.V. (
+                <a href="https://codepen.io/avcoder">@avcoder</a>) on
+                <a href="https://codepen.io">CodePen</a>.</p>
+              <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+            </div>
+            <!-- .end .column -->
+            <div class="column">
+              <h3>
+                Vote now
+              </h3>
+
+              <a href="https://pollev.com/albertv567 ">https://pollev.com/albertv567 </a>
+
+
+              <ul class="text-pull-left">
+                <li>A. Follow through</li>
+                <li>B. Anticipation</li>
+                <li>C. Appeal</li>
+                <li>D. Timing</li>
+              </ul>
+
+            </div>
+            <!-- .end .column -->
+          </div>
+          <!-- .end .grid -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <div class="grid vertical-align">
+
+            <div class="column">
+              <p data-height="500" data-theme-id="dark" data-slug-hash="opraaw" data-default-tab="result" data-user="avcoder" data-embed-version="2"
+                data-pen-title="Guess the Animation Principle" data-preview="true" class="codepen">See the Pen
+                <a href="https://codepen.io/avcoder/pen/opraaw/">Guess the Animation Principle</a> by A.V. (
+                <a href="https://codepen.io/avcoder">@avcoder</a>) on
+                <a href="https://codepen.io">CodePen</a>.</p>
+              <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+            </div>
+            <!-- .end .column -->
+            <div class="column">
+              <h3>
+                Vote now
+              </h3>
+              <a href="https://pollev.com/albertv567 ">https://pollev.com/albertv567 </a>
+              <ul class="text-pull-left">
+                <li>A. Ease in Ease out</li>
+                <li>B. Arc</li>
+                <li>C. Timing</li>
+                <li>D. Follow through</li>
+              </ul>
+
+            </div>
+            <!-- .end .column -->
+          </div>
+          <!-- .end .grid -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <div class="grid vertical-align">
+
+            <div class="column">
+              <p data-height="500" data-theme-id="dark" data-slug-hash="NXZOJJ" data-default-tab="result" data-user="avcoder" data-embed-version="2"
+                data-pen-title="Guess the Animation principle" data-preview="true" class="codepen">See the Pen
+                <a href="https://codepen.io/avcoder/pen/NXZOJJ/">Guess the Animation principle</a> by A.V. (
+                <a href="https://codepen.io/avcoder">@avcoder</a>) on
+                <a href="https://codepen.io">CodePen</a>.</p>
+              <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+            </div>
+            <!-- .end .column -->
+            <div class="column">
+              <h3>
+                Vote now
+              </h3>
+              <a href="https://pollev.com/albertv567 ">https://pollev.com/albertv567 </a>
+              <ul class="text-pull-left">
+                <li>A. Timing</li>
+                <li>B. Secondary Action</li>
+                <li>C. Exaggeration</li>
+                <li>D. Stretch and Squash</li>
+              </ul>
+
+            </div>
+            <!-- .end .column -->
+          </div>
+          <!-- .end .grid -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple aligncenter">
+        <div class="wrap zoomIn">
+          <h1>
+            Animation Principles for the Web
+          </h1>
+          <p>
+            <a href="https://cssanimation.rocks/principles/">https://cssanimation.rocks/principles/</a>
+          </p>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple aligncenter">
+        <div class="wrap zoomIn">
+          <h1>
+            Do Quiz
+          </h1>
+          <p>
+            <a href="https://gc.blackboard.com/webapps/blackboard/content/launchLink.jsp?course_id=_262047_1&content_id=_3799869_1&mode=view">Login to Blackboard</a>
+          </p>
+          <p>You have unlimited multiple attempts for all quizzes!</p>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-secondary">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-50 frame">
+          <h2 class="text-serif aligncenter">
+            Break 15 mins
+          </h2>
+          <p class="aligncenter">
+            <a href="http://avillaruz.computerstudi.es/comp2105/index.html">Start timer</a>
+          </p>
+          <p class="text-symbols">* * *</p>
+          <h4>Did you know?</h4>
+
+          <ul>
+            <li>As of HTML 5.2, there is now a native, accessible &lt;dialog&gt; element.</li>
+            <li>
+              <a href="https://keithjgrant.com/posts/2018/meet-the-new-dialog-element/">https://keithjgrant.com/posts/2018/meet-the-new-dialog-element/</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <blockquote class="text-quote">
+            <p>One primary way to use animation is in:
+              <strong>Stateful Transitions</strong> which can guide users between task flows such as from page to page, or field
+              to field.
+            </p>
+            <p>They're useful for indicating: 1) Change in task flow location 2) Where you've been 3) Where you are now
+            </p>
+            <p>Goto:
+              <a href="http://fluevog.com">http://fluevog.com</a> and search for 'shoe'. </p>
+            <p>Notice when you're searching, suddenly the whole page changes with a blue backdrop to let user know you're in
+              a new context, that you don't need to see previous page since you just want search results.
+            </p>
+            <p>
+              <cite>
+                <img class="avatar-56" src="https://pbs.twimg.com/profile_images/899039208693669888/ibha3cYB_bigger.jpg" alt="Avatar">Rachel Nabors.
+                <br/>
+                <a href="https://www.lynda.com/MyPlaylist/Watch/15095804/650764?autoplay=true">Stateful transitions and supplemental animations</a>
+              </cite>
+            </p>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <blockquote class="text-quote">
+            <p>A secondary way is to use:
+              <strong>Supplemental Animation</strong> which accentuates secondary information to the main state. For example, alerts,
+              notifications. updates.
+            </p>
+            <p>They're useful for indicating: 1) Changes in information 2) What is possible for users 3) Important details that
+              shouldn't be overlooked
+            </p>
+            <p>Goto:
+              <a href="https://www.good.is/features">https://www.good.is/features</a> and hover over each article row.</p>
+            <p>Notice a subtitle comes in and gives more supplemental info. Also, if you continue scrolling down to the bottom,
+              they're assuming if you've gotten this far, you probably liked this article so rather than putting share links,
+              they put a share bar. It's a nice-to-have for users that they might find useful.
+            </p>
+            <p>
+              <cite>
+                <img class="avatar-56" src="https://pbs.twimg.com/profile_images/899039208693669888/ibha3cYB_bigger.jpg" alt="Avatar">Rachel Nabors.
+                <br/>
+                <a href="https://www.lynda.com/MyPlaylist/Watch/15095804/650764?autoplay=true">Stateful transitions and supplemental animations</a>
+              </cite>
+            </p>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <blockquote class="text-quote">
+            <p>A third way is to use:
+              <strong>Causal Effects</strong> which shows when something has caused something else to happen. For example, loaders/spinners
+              indicate when the server has gotten enough info to load the page properly. Hover effects indicate that you
+              are the cause of this change.
+            </p>
+
+            <p>Goto:
+              <a href="https://codepen.io/rachelnabors/full/xGNYjV">https://cdpn.io/xGNYjV</a> and hover over the menu causing it to move in anticipation of where it might go.
+              Helps with cognitive prep / context switching.
+            </p>
+            <p>Goto:
+              <a href="https://academy.allaboutbirds.org/features/fancymales/fancy-males">https://academy.allaboutbirds.org</a> Click start, then try to guess the answer by hovering. How would have
+              this looked during pre-animation era?
+            </p>
+            <p>
+            </p>
+            <p>
+              <cite>
+                <img class="avatar-56" src="https://pbs.twimg.com/profile_images/899039208693669888/ibha3cYB_bigger.jpg" alt="Avatar">Rachel Nabors.
+                <br/>
+                <a href="https://www.lynda.com/MyPlaylist/Watch/15095804/650764?autoplay=true">Causal effects and decorative animations</a>
+              </cite>
+            </p>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <blockquote class="text-quote">
+            <p>The fourth way:
+              <strong>Decorative Animations</strong> are embellishments. Unlike the prior 3, this way doesn't increase info density.
+              When asked why this animation is doing this, the answer can't be verbally expressed, and thus, usually isn't
+              worth doing.
+            </p>
+
+            <p>Goto:
+              <a href="https://www.polygon.com/a/xbox-one-review">https://www.polygon.com/a/xbox-one-review</a>
+            </p>
+
+            <p>However, was one counter example of why using decorative animations was a good thing -- it stood out among numerous
+              other product reviews. At the time, this was the first time svg was being used in this way which became an
+              instant hit because it was the center-piece of this review article.
+            </p>
+            <p>
+              <cite>
+                <img class="avatar-56" src="https://pbs.twimg.com/profile_images/899039208693669888/ibha3cYB_bigger.jpg" alt="Avatar">Rachel Nabors.
+                <br/>
+                <a href="https://www.lynda.com/MyPlaylist/Watch/15095804/650764?autoplay=true">Causal effects and decorative animations</a>
+              </cite>
+            </p>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <blockquote class="text-quote">
+
+
+            <p>No where is motion/animation UI more apparent than in touch interfaces. Can you imagine using your smartphone
+              with no animations? Would you like using your phone? Would you have bought your phone compared to one that
+              has an animated interface? One that could respond to your gestures? ... Animations played a big part of the
+              iPhone's success.
+            </p>
+            <p>
+              <cite>
+                <img class="avatar-56" src="https://pbs.twimg.com/profile_images/899039208693669888/ibha3cYB_bigger.jpg" alt="Avatar">Rachel Nabors.
+                <br/>
+                <a href="https://www.lynda.com/MyPlaylist/Watch/15095804/650764?autoplay=true">Jump cuts and in-betweening</a>
+              </cite>
+            </p>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-50 aligncenter">
+          <h2>
+            <strong>To Do Today:</strong>
+          </h2>
+          <br />
+          <div class="bg-white shadow">
+            <ul class="flexblock reasons">
+              <li>
+                <h2>12 Principles of Animation</h2>
+                <p>Describe each of the animation principles that apply specifically to motion graphics.</p>
+              </li>
+              <li style="background: #aafaa4">
+                <h2>What properties can be animated?</h2>
+                <p>List each of the elements of motion graphics that can be animated in an interactive environment.</p>
+              </li>
+              <li>
+                <h2>Give a UI example</h2>
+                <p>Illustrate a simple example of a possible use of each of the above for the purposes of creating an interactive
+                  user-interface.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .bg-white shadow -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-60">
+          <h3>
+            <strong>What properties can be animated?</strong>
+            <br/> Animatable properties</h3>
+          <hr>
+          <p>Essentially, any visual property that is set using a numerical value, either as positional co-ordinates, RGB values,
+            lengths, degrees, or percentages (or other relative units), can be animated.</p>
+          <div class="bg-white shadow">
+            <ul class="flexblock">
+              <li>
+                <h2>W3C</h2>
+                <a href="https://www.w3.org/TR/css-transitions-1/#animatable-properties">https://www.w3.org/TR/css-transitions-1/#animatable-properties</a>
+              </li>
+              <li>
+                <h2>MDN</h2>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties</a>
+              </li>
+            </ul>
+
+          </div>
+          <br/>
+          <br/>
+          <br/>
+          <p>(What properties can't be animated?)</p>
+          <!-- .end .bg-white shadow -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <blockquote>
+
+
+            <p>Goto: http://www.nba.com/raptors/where-i-come-from/dwane-casey
+            </p>
+            <p>Now smoothly scroll down to the bottom and think about all the animatable properties that were used to make this
+              webpage.
+            </p>
+            <p>
+              <cite>
+                <a href="http://www.nba.com/raptors/where-i-come-from/dwane-casey">Dwane Casey - Where I Come From</a>
+              </cite>
+            </p>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <div class="grid vertical-align">
+
+            <div class="column">
+              <p data-height="500" data-theme-id="dark" data-slug-hash="dJbQEX" data-default-tab="css,result" data-user="avcoder" data-embed-version="2"
+                data-pen-title="webanimation Ch#4" data-preview="true" class="codepen">See the Pen
+                <a href="https://codepen.io/avcoder/pen/dJbQEX/">webanimation Ch#4</a> by A.V. (
+                <a href="https://codepen.io/avcoder">@avcoder</a>) on
+                <a href="https://codepen.io">CodePen</a>.</p>
+              <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+            </div>
+            <!-- .end .column -->
+            <div class="column">
+              <h3>
+                Which animatable property?
+              </h3>
+            </div>
+            <!-- .end .column -->
+          </div>
+          <!-- .end .grid -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-50 aligncenter">
+          <h2>
+            <strong>To Do Today:</strong>
+          </h2>
+          <br />
+          <div class="bg-white shadow">
+            <ul class="flexblock reasons">
+              <li>
+                <h2>12 Principles of Animation</h2>
+                <p>Describe each of the animation principles that apply specifically to motion graphics.</p>
+              </li>
+              <li>
+                <h2>What properties can be animated?</h2>
+                <p>List each of the elements of motion graphics that can be animated in an interactive environment.</p>
+              </li>
+              <li style="background: #aafaa4">
+                <h2>Give a UI example</h2>
+                <p>Illustrate a simple example of a possible use of each of the above for the purposes of creating an interactive
+                  user-interface.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .bg-white shadow -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple aligncenter">
+        <div class="wrap zoomIn">
+          <h1>
+            Do Discussion 1
+          </h1>
+          <p>
+            <a href="https://gc.blackboard.com/webapps/blackboard/content/launchLink.jsp?course_id=_262047_1&content_id=_3799869_1&mode=view">Login to Blackboard</a>
+          </p>
+          <p>Select an application that you feel does an effective job of incorporating some subtle animated elements into the
+            user interface. It doesn't necessarily need to be a browser-based interface.
+          </p>
+          <p>Create a new thread, and in 2-3 sentences, explain why you feel this is effective and which of the 12 Principles
+            of Animation are employed. Comment on at least one of your peer's threads.
+          </p>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-secondary">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-50 frame">
+          <h2 class="text-serif aligncenter">
+            Do Discussion 1 in Blackboard
+            <br/>20 mins
+          </h2>
+          <p class="aligncenter">
+            <a href="http://avillaruz.computerstudi.es/comp2105/index.html">Start timer</a>
+          </p>
+          <p class="text-symbols">* * *</p>
+          <h4>Did you know?</h4>
+
+          <ul>
+            <li>As of last week, Wes Bos (you know--that guy who made javascript30.com) has put a new series of 25 FREE videos
+              on the topic of CSS Grid!</li>
+            <li>
+              <a href="https://cssgrid.io">https://cssgrid.io</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+
+
+      <section class="bg-apple">
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap">
+          <blockquote class="text-quote">
+            <p>Depending on the type of animations you use, you could trigger an attack that causes the user to suffer mild
+              to severe vertigo, nausea, headaches or even seizures. People with cognitive issues could become confused and
+              distracted from your content and unable to proceed to the goal of the site. The easiest way to combat this
+              is giving the user the ability to turn off the animation
+            </p>
+            <p></p>
+            <p>
+              <cite>
+                <img class="avatar-56" src="http://0.gravatar.com/avatar/33fbecfcefff81a97232afe4491898e4?s=200&d=mm&r=g" alt="Avatar">Greg Tamoff.
+                <br/>
+                <a href="http://simplyaccessible.com/article/animations/">Animations are fun, but not for everyone</a>
+              </cite>
+            </p>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-50 aligncenter">
+          <h2>
+            <strong>Summary:</strong>
+          </h2>
+          <br />
+          <div class="bg-white shadow">
+            <ul class="flexblock reasons">
+              <li>
+                <p>Motion graphics for the purposes of interaction use many of the 12 traditional principles of animation that
+                  we've learned about in this lesson, but they are often subtle.</p>
+              </li>
+              <li>
+                <p>On the Web, we are limited in the sense that not all visual elements can be animated using CSS or JavaScript–although
+                  Web-based technologies are improving all the time.</p>
+              </li>
+              <li>
+                <p>We therefore have enough visual elements that can be animated to achieve some very effective motion graphics
+                  that can significantly improve the end user experience when implemented with care and restraint.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .bg-white shadow -->
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+
+      <section class="bg-apple aligncenter">
+        <div class="wrap zoomIn">
+          <h1>
+            Do In-class Exercise 1
+          </h1>
+          <p>
+            <a href="https://gc.blackboard.com/webapps/assignment/uploadAssignment?content_id=_3799871_1&course_id=_262047_1&group_id=&mode=view">Login to Blackboard</a>
+          </p>
+          <p>PIN at least three examples of web user interface elements or content that exemplify the traditional 12 elements
+            of animation to a specified 'comp2105' board posted specifically for this exercise. You will need to take a screenshot
+            of the interface. Be sure to note what animation principle(s) each interface exemplifies.</p>
+          <p>
+            The comp2105 board will be projected up on the screen as we collectively populate it. Also - be sure to post a list of your
+            links here so that you can be awarded a grade for your efforts.</p>
+          <p>
+            The board is at https://app.conceptboard.com/board/eg1b-gbu1-xaz0-74sr-9280
+          </p>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section>
+        <!-- .wrap = container (width: 90%) -->
+        <div class="wrap">
+          <h2 class="alignleft">
+            <strong>References</strong>
+          </h2>
+
+
+        </div>
+        <ol>
+          <li>https://www.fastcodesign.com/3055811/what-disneys-classic-animation-principles-can-teach-us-about-great-web-design</li>
+          <li>https://cssanimation.rocks/principles/</li>
+          <li>http://minyos.its.rmit.edu.au/aim/a_notes/anim_principles.html</li>
+          <li>http://the12principles.tumblr.com/</li>
+          <li>https://keithjgrant.com/posts/2018/meet-the-new-dialog-element/</li>
+          <li>https://css-tricks.com/the-importance-of-context-shifting-in-ux-patterns/</li>
+          <li>http://alistapart.com/article/ui-animation-and-ux-a-not-so-secret-friendship</li>
+          <li>Rachel Nabors. Motion Design in CSS. https://www.lynda.com</li>
+          <li>http://simplyaccessible.com/article/animations/</li>
+        </ol>
+
+        <!-- .end .wrap -->
+      </section>
+
+    </article>
+    <!-- end article -->
+  </main>
+  <!-- end main -->
+
+  <!-- A global footer
+
+     <footer role="contentinfo">
+      <div class="wrap">
+        <p>An <a href="https://github.com/webslides/webslides">open source solution</a>, by <a href="https://twitter.com/webslides">@webslides</a>.</p>
+      </div>
+    </footer>  -->
+
+  <!-- Required -->
+  <script src="static/js/webslides.js"></script>
+  <script>
+    window.ws = new WebSlides();
+  </script>
+
+  <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+  <script defer src="static/js/svg-icons.js"></script>
+
+</body>
+
+</html>
